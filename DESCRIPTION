@@ -1,0 +1,32 @@
+Package: ReferralExposure
+Title: Calculating exposure over multiple referrals
+Description: Reusable functions for calculating exposure during repeated spans.
+Version: 0.0.1.9000
+Date: 2017-02-21
+Authors@R: c(person("Blaine", "Mooers", role = c("aut", "cre"), email =
+    "bmooers1@gmail.com"))
+Author: Blaine Mooers [aut, cre]
+Maintainer: Blaine Mooers <bmooers1@gmail.com>
+URL: https://github.com/MooersLab/scug-package
+BugReports: https://github.com/MooersLab/scug-package/issues
+Depends:
+    R(>= 3.0.0),
+    stats
+Imports:
+    DBI,
+    dplyr,
+    methods,
+    magrittr,
+    readr,
+    sqldf,
+    tidyr,
+    tibble
+Suggests:
+    devtools,
+    knitr,
+    rmarkdown,
+    testthat (>= 0.9)
+License: MIT + file LICENSE
+LazyData: TRUE
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
